@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-label>DETALLE DEL PERSONAJE</ion-label>
+    <ion-label> <h1>DETALLE DEL PERSONAJE</h1></ion-label>
     <ion-buttons slot="end">
       <ion-button (click)="close()">
         <ion-icon slot="icon-only" name="close"></ion-icon>
@@ -13,15 +13,16 @@
   <ion-grid>
     <ion-row>
       <ion-col class="logo">
-        <ion-img [src]="character.image" style="width:40%"></ion-img>
+        <ion-img   [src]="character.image" style="width:40%" ></ion-img> 
       </ion-col>
     </ion-row>
+    
       <ion-col>
-        <h3><b>Nombre: </b> {{ character.name }}</h3>
-        <h3><b>Género: </b> {{ character.gender }}</h3>
-        <h3><b>Status: </b> {{ character.status }}</h3>
-        <h3><b>Especie: </b> {{ character.species }}</h3>
-        <h3><b>Origen: </b> {{ character.origin.name }}</h3>
+        <h1><b>Nombre: </b> {{ character.name }}</h1>
+        <h1><b>Género: </b> {{ character.gender }}</h1>
+        <h1><b>Status: </b> {{ character.status }}</h1>
+        <h1><b>Especie: </b> {{ character.species }}</h1>
+        <h1><b>Origen: </b> {{ character.origin.name }}</h1>
       </ion-col>
     <ion-row>
 

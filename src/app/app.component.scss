@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+$font-family-base: "Oxygen", sans-serif !default;
+
+
+@font-face {
+    font-family: pacifico;
+    src: url('../assets/fonts/pacifico/FwZY7-Qmy14u9lezJ-6H6Mk.woff2');
+
+}
+
+*{
+    font-family: pacifico;
+}
+
+
+ion.toolbar{
+
+    background-color: var(--ion-color-dark-contrast);
+}
